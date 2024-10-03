@@ -1,0 +1,236 @@
+body {
+    width: 100%;
+    height: fit-content;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+.nav {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 63vh;
+}
+
+.background {
+    height: 63vh;
+}
+
+.logo {
+    max-width: 90vw;
+
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+
+.head {
+
+    min-width: 100%;
+    height: 80%;
+}
+
+.head h1 {
+    font-size: 36px;
+    width: 100vw;
+    top: 0px;
+    left: 14px;
+    font-weight: 700;
+    margin: 0px;
+}
+.main-heading :nth-child(2) {
+    margin: 0px 0px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.bottom {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    top: 25px;
+}
+
+.bottom p {
+    font-size: 18px;
+    padding: 35px 0px 0px 30px;
+    font-weight: 600;
+    width: 90vw;
+}
+
+.mail-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-bottom {
+    width: 80vw;
+}
+
+.started-btn {
+    margin: 15px;
+}
+
+
+.all-image {
+    height: 23vh;
+}
+
+.all-image p {
+    top: 0px;
+    height: 5vh;
+    align-content: center;
+    font-size: 20px;
+    margin: 4px 35px;
+}
+
+.image-star {
+    height: 18vh;
+    width: 85vw;
+    margin: 0;
+}
+
+.image-star li img {
+    width: 128px;
+    height: 18vh;
+
+    border-radius: 10px;
+
+}
+
+.image-star span {
+    font-size: 70px;
+
+}
+
+.one {
+    bottom: 0px;
+    left: 2rem;
+}
+
+
+
+.Two {
+    bottom: 0px;
+    left: 11rem;
+}
+
+
+.three {
+    bottom: 0px;
+    left: 20rem;
+}
+
+
+.Four {
+    bottom: 0px;
+    left: 30rem;
+}
+
+.Five {
+    bottom: 0px;
+    left: 39rem;
+}
+
+
+.text {
+    flex-direction: column;
+    display: flex;
+    height: 90vh;
+}
+
+.text-one p {
+    margin: 18px 38px 5px;
+    font-size: 20px;
+}
+
+.summary {
+    height: 80vh;
+    position: relative;
+    flex-direction: column;
+    padding: 0px 24px;
+}
+.summary li {
+    width: 90vw;
+    height: 20vh;
+}
+.summary-text :nth-child(2) {
+    padding: 0px 114px 0px 12px;
+    margin: 0px;
+    font-size: 13px;
+}
+
+.summary-text img {
+    bottom: 10px;
+    right: 20px;
+}
+.new-summary {
+    height: 57vh;
+}
+
+.Frequently {
+    margin: 0px 40px;
+}
+
+.Frequently span {
+    font-size: 20px;
+}
+
+.Frequently p {
+    font-size: 18px;
+}
+
+.fa-plus {
+    font-size: 25px;
+    font-weight: 100;
+    left: 18rem;
+
+}
+
+
+.sec-bottom {
+    width: 80vw;
+}
+
+.get-btn {
+    margin: 10px 175px 0px 0px;
+}
+
+.last-text {
+    margin: 10px 0px 0px 35px;
+}
+
+.last-text>:first-child {
+    margin: 70px 0px 20px 0px;
+}
+
+
+.about {
+    font-size: 14px;
+    display: block;
+}
+
+.about li {
+    padding-top: 22px;
+}
+
+
+.last-bottom button {
+    margin: 50px 0px 35px;
+}
+
+.last-bottom p {
+    position: relative;
+    bottom: 30px;
+}
