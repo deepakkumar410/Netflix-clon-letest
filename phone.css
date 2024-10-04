@@ -1,9 +1,8 @@
-body {
+html,body {
     width: 100%;
     height: fit-content;
     padding: 0px 0px;
     margin: 0px 0px;
-    overflow-x: hidden;
     box-sizing: border-box;
     background-color: rgb(0, 0, 0);
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
@@ -159,10 +158,9 @@ body {
     height: 80vh;
     position: relative;
     flex-direction: column;
-    padding: 0px 24px;
 }
 .summary li {
-    width: 90vw;
+    width: 85vw;
     height: 20vh;
 }
 .summary-text :nth-child(2) {
@@ -176,7 +174,7 @@ body {
     right: 20px;
 }
 .new-summary {
-    height: 57vh;
+    width: 100%;
 }
 
 .Frequently {
@@ -194,7 +192,7 @@ body {
 .fa-plus {
     font-size: 25px;
     font-weight: 100;
-    left: 18rem;
+    /* left: 18rem; */
 
 }
 
